@@ -14,11 +14,12 @@
   <link rel="stylesheet" href="resources/css/style.css">
   <link rel="stylesheet" href="resources/css/queries.css" />
   <link rel="shortcut icon" href="resources/favicons/favicon.ico">
-  <link rel="stylesheet" href="vendors/css/pill.css">
   <!-- <script type="text/javascript" src="vendors/js/jquery-3.6.0.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="resources/css/responsive.css">
   <title>الأنظمة الإلكترونية</title>
 </head>
 
@@ -66,17 +67,13 @@
                 <li class="user-date-li user-name"><span>اسم المستخدم :</span></li>
                 <li class="user-date-li date-time " id="datetime">اليوم : الثلاثاء التاريخ : 2021/6/14 الوقت : 11:30
                 </li>
-                <li></li>
-                <!--
+                <li><button type="button" name="button" class="log-out btn btn-outline-success">
                     <a href="index.html" style="color: green; ">
                       <i class="log-out-icon fa fa-power-off" aria-hidden="true"></i><span>خروج</span>
                     </a>
--->
-
+                  </button></li>
               </ul>
 
-            </div>
-            <div class="log-out"><a href="index.html"><button class="bttn-pill bttn-md bttn-primary ">خروج</button></a>
             </div>
           </div>
 
@@ -162,64 +159,80 @@
       </div>
     </nav>
   </div>
-  <div class="container">
-    <div class="row">
+  
+  <div class="container " style="margin-top: 135px;" >
+    <div class="row justify-content-md-center">
+      <div class="col-lg-3 col-md-3">
+        <div class="single-chart ">
+          <svg viewBox="0 0 36 36" class="circular-chart orange ">
+            <path class="circle-bg" d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <text x="18" y="20.35" class="percentage">60%</text>
+            <text x="25" y="25" class="pp"> الطلبات المنجزة</text>
+          </svg>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3">
+        <div class="single-chart">
+          <svg viewBox="0 0 36 36" class="circular-chart green">
+            <path class="circle-bg" d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <text x="18" y="20.35" class="percentage">80% </text>
+            <text x="25" y="25" class="pp">الطلبات الجديدة</text>
+          </svg>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3">
+        <div class="orders">
+          <img src="resources/images/12.png" class="count_icon"></img>
+          <p id="count">288</p>
+          <text x="25" y="25" class="ppp">طلب تم استقباله</text>
+        </div>
+      </div>
 
-
-      <div class="flex-wrapper">
+     <!--  <div class="flex-wrapper">
         <div class="col-lg-3 col-md-4 col-xs-12">
-          <div class="single-chart ">
-            <svg viewBox="0 0 36 36" class="circular-chart orange ">
-              <path class="circle-bg" d="M18 2.0845
-              a 15.9155 15.9155 0 0 1 0 31.831
-              a 15.9155 15.9155 0 0 1 0 -31.831" />
-              <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845
-              a 15.9155 15.9155 0 0 1 0 31.831
-              a 15.9155 15.9155 0 0 1 0 -31.831" />
-              <text x="18" y="20.35" class="percentage">60%</text>
-              <text x="25" y="25" class="pp"> الطلبات المنجزة</text>
-            </svg>
-          </div>
+          
         </div>
         <div class="col-lg-3 col-md-4 col-xs-12">
-          <div class="single-chart">
-            <svg viewBox="0 0 36 36" class="circular-chart green">
-              <path class="circle-bg" d="M18 2.0845
-              a 15.9155 15.9155 0 0 1 0 31.831
-              a 15.9155 15.9155 0 0 1 0 -31.831" />
-              <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845
-              a 15.9155 15.9155 0 0 1 0 31.831
-              a 15.9155 15.9155 0 0 1 0 -31.831" />
-              <text x="18" y="20.35" class="percentage">80% </text>
-              <text x="25" y="25" class="pp">الطلبات الجديدة</text>
-            </svg>
-          </div>
+         
         </div>
         <div class="col-lg-3 col-md-4 col-xs-12">
-          <div class="orders">
-            <img src="resources/images/12.png" class="count_icon"></img>
-            <p id="count">288</p>
-            <text x="25" y="25" class="ppp">طلب تم استقباله</text>
+          
+        </div>
+      </div> -->
+    </div>
+
+
+    <div class="row justify-content-md-center">
+      <div class="col-lg-9 col-md-10">
+        <div class="alert">
+          <div class="col-10">
+            <img src="resources/images/order_icon.png" class="new_ord"></img>
+            <h2>احدث الطلبات</h2>
+            <section class="list">
+  
+              <ul>
+                <li>بلدية طبب</li>
+                <li>بلدية احد رفيدة</li>
+  
+              </ul>
+            </section>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="alert">
-        <div class="col-10">
-          <img src="resources/images/order_icon.png" class="new_ord"></img>
-          <h2>احدث الطلبات</h2>
-          <section class="list">
-
-            <ul>
-              <li>بلدية طبب</li>
-              <li>بلدية احد رفيدة</li>
-
-            </ul>
-          </section>
-        </div>
-      </div>
-    </div>
+   <!--  <div class="container">
+      
+    </div> -->
   </div>
 
 

@@ -1,0 +1,101 @@
+@media (min-width: 992px) {
+   .ppp{
+    font-size: 23px;
+   }
+   .alert h2{
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+   .list {
+    margin-right: 18px;
+}
+
+.percentage{
+    font-size: 8px;
+   }
+
+   .orders{
+    padding-top: 44px;
+   }
+}
+
+/* Taplet */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .ppp{
+        font-size: 15px;
+   }
+
+   .orders{
+    padding-top: 44px;
+   }
+
+   .count_icon{
+    width: 32%;
+    margin-left: 9px;
+   }
+
+   #count{
+    font-size: 23px;
+   }
+
+   .percentage{
+    font-size: 7px;
+   }
+
+   .alert h2{
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+   .list{
+    margin-right: 22px;
+    font-weight: normal;
+   }
+}
+
+/* phone */
+@media (max-width: 767px) {
+
+    .ppp {
+        font-size: 23px;
+        font-weight: normal;
+    }
+    .pp{
+        font-size: 2.5px;
+    }
+
+    .percentage{
+        font-size: 7px;
+       }
+
+       .new_ord {
+        width: 10%;
+        float: right;
+        margin-left: 11px;
+       }
+
+       .alert h2{
+        font-size: 17px;
+        
+       }
+
+       .alert ul li {
+        font-size: 17px;
+        font-weight: normal;
+       }
+
+       .alert ul {
+        padding-right: 13px;
+       }
+    
+       .single-chart{
+        width: 191px;
+       }
+
+       .orders{
+        width: 208px;
+       }
+}
+
