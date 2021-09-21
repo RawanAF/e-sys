@@ -355,7 +355,7 @@ margin-right: 5px;
   line-height:inherit;
   color: #0b5438;
   position: absolute;
-    right: 7px;
+    right: 11px;
 
 }
 .user-details ul{
@@ -365,17 +365,10 @@ margin-right: 5px;
     position:relative;
     -moz-padding-start: 10px;
 }
-
-.user-details  button{
-  height: 35px;
-  background-color: white;
-  border-radius: 10px;
-  border-color: #0b5438;
-  width: 83px;
-  color: #0b5438;
-  padding-top: 3px;
- 
+button.bttn-pill.bttn-md.bttn-primary {
+  margin: 13px 2px 0px 44px;
 }
+
 ul li .log-out {
   position: absolute;
     top: -7px;
@@ -386,15 +379,9 @@ ul li .log-out {
   padding-top: 4px;
 }
 
-.user-details button:hover{
-  color:white;
-  background-color: #14764f;
-  border-color: #14764f;
-}
+.
 /* --------------------------- */ 
-
-nav {
-    
+nav { 
   top:95px; 
   height: 80px;
 }
