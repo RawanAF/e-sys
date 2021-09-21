@@ -147,7 +147,7 @@ ul li .log-out {
     position: relative;
     width: 100%;
     bottom: 0;
-    margin-top: 465px;
+    /* margin-top: 465px; */
 }
 .flex-wrapper {
     display: flex;
