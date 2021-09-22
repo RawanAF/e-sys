@@ -58,6 +58,9 @@ body{
 .navbar{
   color: white !important;
 }
+.navbar-list{
+margin-top: 100px;
+}
 .navbar img{
   position: absolute;
   top: 0px;
@@ -367,6 +370,7 @@ margin-right: 5px;
 }
 button.bttn-pill.bttn-md.bttn-primary {
   margin: 13px 2px 0px 44px;
+  border-radius: 27px;
 }
 
 ul li .log-out {
