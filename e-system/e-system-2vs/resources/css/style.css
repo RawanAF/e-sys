@@ -230,71 +230,7 @@ text-decoration: none;
 background: rgba(128, 128, 128, 0.356);
 }
 
-
-
-
-/* 
-.social-media ul{
-  height: 20px;
-
-}
-.social-media ul li{
-  padding-top: 10px;
-  display: flex;
-  float:left;
-  list-style: none;
-margin-right: 5px;
-}
-.social-media ul li img{
-  height: 20px;
-}
-.social-media ul p{
-   padding-top: 10px; 
-  float: right;
-  color: grey;
-} */
-
-/* .circle {
-  height: 200px;
-  border-radius: 50%;
-  background-color: white;
-  width: 220px;
-  border-style: none;
-  box-shadow: -4px 4px 5px 1px #0000001a;
-
-}
- .circle-table ul li{
-
-  margin-left: 30px;
-
-
-}
-.circle-table{
-  display: flex;
-}
- .circle-table ul{
-  display: flex !important;
-  list-style: none;
-  margin: 30px auto;
-  text-align: center;
-
-}
-.image-circle img{
-  text-align: center;
-  margin:0 auto;
-  width: 100px;
-  height: 140px;
-  display: block;
-  padding: 10px;
-  padding-top: 25px;
-}
-.circle h5{
-  text-align: center;
-} */
-
-
-/*
--------------------------------- */
+/*-------------------------------- */
 .info .card{
   position: relative;
   top: 50px;
@@ -585,163 +521,115 @@ ul{
 
 /*   section carousel   */
 
-.cards-wrapper {
+.circle-info {
   display: flex;
   justify-content: center;
   height: 245px;
-  margin-bottom: 10px;
-    margin-top: 23px;
+  margin-bottom: 50px;
+  margin-top: 26px;
 }
 
 .card-circle {
-  margin: 0 0.5em;
-  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-  border: none;
-  border-radius: 50%;
-  background-color: white;
-  margin-bottom: 50px;
+margin: 0 0.5em;
+box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+border: none;
+border-radius: 50%;
+background-color: white;
+margin-bottom: 50px;
+
 }
 
 .img-makeen {
-    width: 86%;
-    margin-top: 50px;
-    margin-left: 12px;
+  width: 86%;
+  margin-top: 50px;
+  margin-left: 12px;
 }
 
 .img-outlook {
-  width: 50%;  
-  margin-top: 30px;
-  margin-left: 38px;
+width: 50%;  
+margin-top: 30px;
+margin-left: 38px;
 }
 
 .img-technical-support {
-   width: 57%; 
-   margin-top: 20px; 
-   margin-left: 43px;
+ width: 57%; 
+ margin-top: 20px; 
+ margin-left: 43px;
 }
 
 .img-checklist {
-   width: 57%; 
-   margin-top: 20px; 
-   margin-left: 42px;
+ width: 57%; 
+ margin-top: 20px; 
+ margin-left: 42px;
 }
 
 .img-check {
-   width: 57%; 
-   margin-top: 51px; 
-   margin-left: 34px;
-    
+ width: 57%; 
+ margin-top: 51px; 
+ margin-left: 34px;   
 }
 
 .img-CustomerSupport {
-  width: 55%;
-  margin-top: 28px;
-  margin-left: 37px;
+width: 55%;
+margin-top: 28px;
+margin-left: 37px;
 }
-
-.img-listcall {
-  width: 46%;
-  margin-top: 39px;
-  margin-left: 40px;
-}
-
 
 .img-system {
-  width: 47%;
-  padding-top: 40px;
-  margin-left: 48px;
+width: 47%;
+padding-top: 40px;
+margin-left: 48px;
+}
+
+.img-cyber {
+  height: 80px;
+  width: 80%;
+  margin-left: 16px;
+  margin-top: 39px;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .2s ease;
+background-color: #a2c4d0;
+border-radius: 125px;
+}
+
+.card-cyb:hover .overlay {
+opacity: 1;
 }
 
 a {
-  text-decoration: none !important;
+text-decoration: none !important;
 }
 
 a .card-title:hover,
 a .card-title:active {
-  color: #48ac54;
+color: #116f4c;
 }
 
 .card-title {
-    font-size: 18px;
-    text-align: center;
-    color: gray;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-  background-color: #48ac54;
-  width: 6vh;
-  height: 6vh;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.carousel-control-prev {
-
-  margin-left: 40px;
-}
-
-
-.carousel-inner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-.carousel{
-  margin: 0 auto;
-}
-
-.text-center button{
-  height: 35px;
-  background-color: white;
-  border-radius: 10px;
-  border-color: #0b5438;
-  width: 83px;
-  color: #0b5438;
-  padding-top: 3px;
-  margin-top: 15px;
-}
-
-.text-center button:hover{
-  color:white;
-  background-color: #14764f;
-  border-color: #14764f;
-}
-
-.img-card {
-  height: 48px;
-  width: 80%;
-  margin-top: 61px;
-  margin-left: 22px;
+  font-size: 15px;
+  text-align: center;
+  color: gray;
 }
 
 
 .zoom {
-   transition: all .2s ease-in-out;
+ transition: all .2s ease-in-out;
 }
 
 .zoom:hover {
-   transform: scale(1.1);
+ transform: scale(1.1);
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .2s ease;
-  background-color: #a2c4d0;
-  border-radius: 125px;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
 
 
 /* dark mood */
