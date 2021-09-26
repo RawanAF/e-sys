@@ -194,7 +194,7 @@ footer p{
 
 .ct-socials {
   position: absolute;
-  top: 68%;
+  top: 63%;
   left: 0;
   list-style: none;
   padding-left: 0;
@@ -223,11 +223,12 @@ footer p{
   float: left;
   
 }
+
 .ct-socials li a:hover {
 width: 54px;
 padding-left: 0;
 text-decoration: none;
-background: rgba(128, 128, 128, 0.356);
+background: #12794edb;
 }
 
 /*-------------------------------- */
@@ -519,7 +520,7 @@ ul{
 
 
 
-/*   section carousel   */
+/* -----------------------*/
 
 .circle-info {
   display: flex;
