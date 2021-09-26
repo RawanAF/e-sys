@@ -55,6 +55,55 @@
     margin-right: 22px;
     font-weight: normal;
    }
+
+   .circle-info {
+    height: 177px;
+    width: 100%;
+   }
+
+   .img-makeen {
+    width: 86%;
+    margin-top: 37px;
+    margin-left: 7px;
+   }
+
+   .img-technical-support  {
+    width: 57%;
+    margin-top: 21px;
+    margin-left: 25px;
+   }
+   .img-checklist {
+    width: 57%;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+   .img-CustomerSupport {
+    width: 55%;
+    margin-top: 24px;
+    margin-left: 21px;
+}
+   .img-listcall {
+    width: 46%;
+    margin-top: 26px;
+    margin-left: 24px;
+}
+  .img-system{
+    width: 47%;
+    padding-top: 29px;
+    margin-left: 26px;
+}
+
+  .img-cyber {
+    width: 47%;
+    padding-top: 29px;
+    margin-left: 26px;
+}
+  .card-title {
+    font-size: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
 }
 
 /* phone */
