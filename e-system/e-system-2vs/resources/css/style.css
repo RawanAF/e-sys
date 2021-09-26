@@ -1,16 +1,8 @@
-@font-face{
-
-  font-family: "pnu";
-  src:url("vendors/fonts/ArbFONTS-PNU.ttf");
-
-
-}
 *{
   margin: 0;
   padding: 0;
   box-sizing:border-box;
   text-rendering: optimizeLegibility;
-  font-family: 'pnu','Cairo';
   font-size: 18px;
 
 
@@ -21,6 +13,7 @@
 }
 body{
   background-color: #EFEFEF;
+  font-family: 'Cairo', sans-serif;
 }
 .dark-mode{
   background-color: rgb(88, 88, 88);
