@@ -51,6 +51,13 @@ body{
 .navbar{
   color: white !important;
 }
+.nav-item-home{
+  padding-right: 45px;
+}
+.dropdown-toggle::after{
+  margin-left: 106px;
+}
+
 .navbar-list{
 margin-top: 85px;
 }
@@ -61,13 +68,12 @@ height: 100px;
   width: 250px;
   float: left;
 }
-.dropdown-menu{
+ul.dropdown-menu.show {
+  background-color: #f8f9fa;
   text-align: right;
-  border: none;
+  border:none;
 }
-.dropdown-item{
-  text-align: right;
-}
+
 .navbar nav {
   color: white;
   top: 25px;
