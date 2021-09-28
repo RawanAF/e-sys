@@ -552,16 +552,10 @@ margin-bottom: 50px;
   margin-left: 12px;
 }
 
-.img-outlook {
-width: 50%;  
-margin-top: 30px;
-margin-left: 38px;
-}
-
 .img-technical-support {
  width: 57%; 
  margin-top: 20px; 
- margin-left: 43px;
+ margin-left: 38px;
 }
 
 .img-checklist {
@@ -570,23 +564,6 @@ margin-left: 38px;
  margin-left: 42px;
 }
 
-.img-check {
- width: 57%; 
- margin-top: 51px; 
- margin-left: 34px;   
-}
-
-.img-CustomerSupport {
-width: 55%;
-margin-top: 28px;
-margin-left: 37px;
-}
-
-.img-system {
-width: 47%;
-padding-top: 40px;
-margin-left: 48px;
-}
 
 .img-cyber {
   height: 80px;
