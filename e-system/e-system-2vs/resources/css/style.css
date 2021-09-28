@@ -55,7 +55,7 @@ body{
   padding-right: 45px;
 }
 .dropdown-toggle::after{
-  margin-left: 66px;
+  margin-left: 106px;
 }
 
 .navbar-list{
@@ -71,6 +71,7 @@ height: 100px;
 ul.dropdown-menu.show {
   background-color: #f8f9fa;
   text-align: right;
+  border:none;
 }
 
 .navbar nav {
