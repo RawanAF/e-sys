@@ -326,16 +326,16 @@ ul li .log-out {
 
 .
 /* --------------------------- */ 
-.nav { 
+nav { 
   top:95px; 
   height: 80px;
 }
-.nav ul li {
+nav ul li {
   margin-right: 1px;
  
 }
 
-.nav p{
+nav p{
   /* padding-top: 50px;
   padding-right:65px;
   padding-left: 23px; */
