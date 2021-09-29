@@ -51,12 +51,12 @@ body{
 .navbar{
   color: white !important;
 }
-.nav-item-home{
+/* .nav-item-home{
   padding-right: 45px;
-}
-.dropdown-toggle::after{
+} */
+/* .nav-link .dropdown-toggle::after{
   margin-left: 106px;
-}
+} */
 
 .navbar-list{
 margin-top: 85px;
@@ -86,6 +86,11 @@ ul.dropdown-menu.show {
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255 255 255);
 }
+
+ul.navbar-nav {
+  max-width: 40%;
+}
+
 nav ul{
   display: flex;
   list-style: none;
@@ -354,6 +359,11 @@ margin-top:-31px;
 
 a .dropdown-item{
   padding: 2px 12px !important;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+  color:black;
+    background-color: #c8b35647;
 }
 
 
