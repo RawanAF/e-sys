@@ -252,6 +252,11 @@
     .ct-socials {
         display: none;
     }
+
+    footer p {
+        padding-right: 10px;
+        font-size: 14px;
+    }
 }
 
 /* Mobile devices */
@@ -317,5 +322,10 @@
 
     .ct-socials {
         display: none;
+    }
+
+    footer p {
+        padding-right: 10px;
+        font-size: 14px;
     }
 }
