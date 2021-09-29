@@ -290,7 +290,7 @@ background: #12794edb;
 }
 .user-details{
   text-align: right;
-  margin-top: 20px;
+  margin-top: 6px;
   font-weight: 300;
   margin-right: 570px;
   line-height:inherit;
@@ -306,6 +306,11 @@ background: #12794edb;
     position:relative;
     -moz-padding-start: 10px;
 }
+ul h6 {
+  margin-top: -33px;
+  margin-right: 21px;
+}
+
 button.bttn-pill.bttn-md.bttn-primary {
   margin: 13px 2px 0px 44px;
   border-radius: 27px;
