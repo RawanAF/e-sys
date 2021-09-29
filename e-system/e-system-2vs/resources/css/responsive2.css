@@ -248,6 +248,10 @@
        .list {
         margin-right: 5px;
     }
+
+    .ct-socials {
+        display: none;
+    }
 }
 
 /* Mobile devices */
@@ -309,5 +313,9 @@
 
     .count_icon {
         width: 35px;
+    }
+
+    .ct-socials {
+        display: none;
     }
 }
