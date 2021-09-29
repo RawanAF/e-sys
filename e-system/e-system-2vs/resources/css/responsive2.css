@@ -257,6 +257,16 @@
         padding-right: 10px;
         font-size: 14px;
     }
+    .info .card{
+        height: 66px;
+    }
+    .info-img img{
+        height: 67px;;
+    }
+    .info-img h1{
+        font-size: 18px !important;
+        margin-top: 10px;
+    }
 }
 
 /* Mobile devices */
@@ -327,5 +337,16 @@
     footer p {
         padding-right: 10px;
         font-size: 14px;
+    }
+
+    .info .card{
+        height: 66px;
+    }
+    .info-img img{
+        height: 67px;;
+    }
+    .info-img h1{
+        font-size: 18px !important;
+        margin-top: 10px;
     }
 }
