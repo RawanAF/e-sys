@@ -128,21 +128,6 @@
     margin-top: 20px;
     margin-left: 44px;
 }
-   .img-CustomerSupport {
-    width: 55%;
-    margin-top: 24px;
-    margin-left: 21px;
-}
-   .img-listcall {
-    width: 46%;
-    margin-top: 26px;
-    margin-left: 24px;
-}
-  .img-system{
-    width: 47%;
-    padding-top: 29px;
-    margin-left: 26px;
-}
 
   .img-cyber {
     width: 47%;
@@ -154,6 +139,10 @@
     text-align: center;
     font-weight: bold;
 }
+  .icon-soials {
+    display: none;
+}
+
 }
 
 /* Mobile devices */
@@ -202,7 +191,11 @@
            height: 200px;
            width: 200px;
        }
-}
+    
+       .icon-soials {
+        display: none;
+    }
+
 
 /* Mobile devices */
 @media (max-width: 319px) {
@@ -245,4 +238,10 @@
        .orders{
         width: 208px;
        }
+
+       .icon-soials {
+        display: none;
+    }
+  
+    
 }
