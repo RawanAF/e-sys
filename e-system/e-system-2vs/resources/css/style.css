@@ -754,9 +754,9 @@ border-radius: 10px;
 }
 .category  li:hover,ul li:active{
   /* padding-right: 40px; */
-  border-right: 3px solid #c8b356;
+  /* border-right: 3px solid #c8b356;
   background-color:#c8b35647;
-  transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease; */
 }
 .category ul li a{
   color: grey;
