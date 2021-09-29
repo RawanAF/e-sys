@@ -139,10 +139,9 @@
     text-align: center;
     font-weight: bold;
 }
-      .ct-socials {
-          display: none;
-      }
-      
+  .icon-soials {
+    display: none;
+}
 
 }
 
@@ -192,10 +191,11 @@
            height: 200px;
            width: 200px;
        }
-       .ct-socials {
+    
+       .icon-soials {
         display: none;
-         }
-}
+    }
+
 
 /* Mobile devices */
 @media (max-width: 319px) {
@@ -239,8 +239,9 @@
         width: 208px;
        }
 
-       .ct-socials {
+       .icon-soials {
         display: none;
-         }
+    }
+  
     
 }
