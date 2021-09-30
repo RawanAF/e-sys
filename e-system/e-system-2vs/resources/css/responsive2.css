@@ -89,7 +89,21 @@
        .ct-socials {
         display: none;
     }
-      
+    .user-details ul {
+        margin-right: 50px;
+        margin-top: -9px;
+       }
+       .user-details ul h6 {
+        font-size: 15px;
+       }
+       .info-img .seperator img {
+            margin-right: 120px;
+            width: 6px;
+       }
+       .info-img h1 {
+        font-size: 27px;
+        margin-top: 3px;
+       }
 }
 
 /* iPads, Tablets */
@@ -175,6 +189,24 @@
 
    .ct-socials {
        display: none;
+   }
+   .user-details ul {
+    margin-right: 35px;
+    margin-top: -6px;
+   }
+   .user-details ul h6 {
+    font-size: 13px;
+   }
+   .info-img img {
+    width: 64px;
+   }
+   .info-img h1 {
+    font-size: 23px;
+    margin-top: 8px;
+   }
+   .info-img .seperator img {
+    margin-right: -1px;
+    width: 5px;
    }
 }
 
