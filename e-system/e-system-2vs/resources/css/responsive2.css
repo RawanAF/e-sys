@@ -23,6 +23,11 @@
         padding-top: 44px;
         margin: 0 0px;
        }
+
+
+       .foursys{
+        margin-top: 250px;;
+    }
 }
 
 /* Desktops, large screens */
@@ -55,6 +60,9 @@
        .count_icon {
         width: 37px;
        }
+       .foursys{
+        margin-top: 250px;;
+    }
 }
 
 /* Small screens, laptops */
@@ -104,6 +112,10 @@
         font-size: 27px;
         margin-top: 3px;
        }
+
+       .foursys{
+        margin-top: 350px;;
+    }
 }
 
 /* iPads, Tablets */
@@ -117,6 +129,10 @@
     margin: 0 auto;
     margin-top: 7px;
    }
+
+   .foursys{
+    margin-top: 520px;;
+}
 
    .count_icon{
     width: 24%;
@@ -208,6 +224,8 @@
     margin-right: -1px;
     width: 5px;
    }
+
+   
 }
 
 /* Mobile devices */
@@ -291,6 +309,13 @@
         font-size: 18px !important;
         margin-top: 10px;
     }
+
+
+    .foursys{
+        margin-top: 520px;;
+    }
+
+    
 }
 
 /* Mobile devices */
@@ -372,5 +397,9 @@
     .info-img h1{
         font-size: 18px !important;
         margin-top: 10px;
+    }
+
+    .foursys{
+        margin-top: 520px;;
     }
 }
