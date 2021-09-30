@@ -116,6 +116,9 @@
        .foursys{
         margin-top: 350px;;
     }
+    footer  {
+        display: none;
+    }
 }
 
 /* iPads, Tablets */
@@ -208,7 +211,7 @@
        display: none;
    }
    .user-details ul {
-    margin-right: 35px;
+    margin-right: 39px;
     margin-top: -6px;
    }
    .user-details ul h6 {
@@ -226,6 +229,7 @@
     width: 5px;
    }
 
+ 
    
 }
 

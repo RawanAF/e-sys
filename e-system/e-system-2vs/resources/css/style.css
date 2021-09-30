@@ -126,6 +126,11 @@ nav ul li:after{
   border-radius: 10px;
   color: white;
 }
+
+.navbar-toggler {
+  text-align: initial;
+}
+
 .announcement{
   display: flex;
 
@@ -171,7 +176,7 @@ footer {
   position: relative;
   width: 100%;
   bottom: 0 ;
-  margin-top: 117px;
+  margin-top: 130px;
 }
 
 .footer h4{
