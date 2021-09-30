@@ -570,15 +570,14 @@ ul{
 .img-technical-support {
  width: 57%; 
  margin-top: 20px; 
- margin-left: 38px;
+ margin-left: 45px;
 }
 
 .img-checklist {
- width: 57%; 
- margin-top: 20px; 
- margin-left: 42px;
+  width: 57%;
+  margin-top: 24px;
+  margin-left: 53px;
 }
-
 
 .img-cyber {
   height: 80px;
