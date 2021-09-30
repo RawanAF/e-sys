@@ -265,6 +265,7 @@ background: #12794edb;
     color: #0b5438;
     padding-left: 139px;
     margin-right: -16px;
+    font-size: 37px;
 }
 .seperator{
   position: relative;
@@ -292,7 +293,7 @@ background: #12794edb;
   text-align: right;
   margin-top: 6px;
   font-weight: 300;
-  margin-right: 570px;
+  margin-right: 525px;
   line-height:inherit;
   color: #0b5438;
   position: absolute;
