@@ -171,18 +171,19 @@
    .img-technical-support  {
     width: 57%;
     margin-top: 20px;
-    margin-left: 38px;
+    margin-left: 46px;
    }
+
    .img-checklist {
     width: 57%;
     margin-top: 20px;
-    margin-left: 44px;
+    margin-left: 52px;
 }
 
   .img-cyber {
-    width: 47%;
+    width: 50%;
     padding-top: 29px;
-    margin-left: 26px;
+    margin-left: 54px;
 }
   .card-title {
     font-size: 14px;
@@ -314,6 +315,7 @@
     .foursys{
         margin-top: 520px;;
     }
+
 
     
 }

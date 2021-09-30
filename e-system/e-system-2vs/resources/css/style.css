@@ -589,7 +589,7 @@ ul{
 .img-cyber {
   height: 107px;
   width: 60%;
-  margin-left: 38px;
+  margin-left: 42px;
   margin-top: 39px;
 }
 
@@ -603,7 +603,7 @@ height: 100%;
 width: 100%;
 opacity: 0;
 transition: .2s ease;
-background-color: #a2c4d0;
+background-color: #9e9e9ee6;
 border-radius: 125px;
 }
 
