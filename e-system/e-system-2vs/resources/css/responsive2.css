@@ -134,7 +134,7 @@
    }
 
    .foursys{
-    margin-top: 520px;;
+    margin-top: 250px;
 }
 
    .count_icon{
@@ -317,10 +317,17 @@
 
 
     .foursys{
-        margin-top: 520px;;
+        margin-top: 40px;
     }
 
+    .twocards{
+        margin-top: 100px;
+        position: unset;
+    }
 
+    .navbar nav{
+        direction: ltr;
+    }
     
 }
 
@@ -407,5 +414,9 @@
 
     .foursys{
         margin-top: 520px;;
+    }
+
+    .navbar nav{
+        direction: ltr;
     }
 }

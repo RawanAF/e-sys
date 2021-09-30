@@ -75,11 +75,12 @@ ul.dropdown-menu.show {
 }
 
 .navbar nav {
-  color: white;
-  top: 25px;
+  top: 33px;
   left: 0;
-  float:left;
+  float: left;
   position: absolute;
+  /* right: 0; */
+  direction: rtl;
   /* background-color: white; */
 
 }
