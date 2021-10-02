@@ -63,6 +63,8 @@
        .foursys{
         margin-top: 250px;;
     }
+  
+  
 }
 
 /* Small screens, laptops */
@@ -119,6 +121,8 @@
     footer  {
         display: none;
     }
+
+     
 }
 
 /* iPads, Tablets */
@@ -228,6 +232,9 @@
     margin-right: -1px;
     width: 5px;
    }
+   .navbar-nav{
+    text-align: initial;
+   }
 
  
    
@@ -328,6 +335,9 @@
     .navbar nav{
         direction: ltr;
     }
+    .navbar-nav{
+        text-align: initial;
+       }
     
 }
 
@@ -419,4 +429,7 @@
     .navbar nav{
         direction: ltr;
     }
+    .navbar-nav{
+        text-align: initial;
+       }
 }
