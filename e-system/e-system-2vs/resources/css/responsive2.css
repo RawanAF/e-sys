@@ -68,11 +68,16 @@
        .foursys{
         margin-top: 250px;;
     }
+<<<<<<< HEAD
 
 
     .alert2 {
         width: 70%;
     }
+=======
+  
+  
+>>>>>>> 83f2468aa4a8f314a67d883bb8e89986facd7682
 }
 
 /* Small screens, laptops */
@@ -244,6 +249,9 @@
     margin-right: -1px;
     width: 5px;
    }
+   .navbar-nav{
+    text-align: initial;
+   }
 
  
    
@@ -344,6 +352,9 @@
     .navbar nav{
         direction: ltr;
     }
+    .navbar-nav{
+        text-align: initial;
+       }
     
 }
 
@@ -435,4 +446,7 @@
     .navbar nav{
         direction: ltr;
     }
+    .navbar-nav{
+        text-align: initial;
+       }
 }
