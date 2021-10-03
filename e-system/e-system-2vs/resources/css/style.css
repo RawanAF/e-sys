@@ -208,7 +208,7 @@ footer p{
 
 .ct-socials {
   position: absolute;
-  top: 63%;
+  top: 60%;
   left: 0;
   list-style: none;
   padding-left: 0;
@@ -570,7 +570,7 @@ ul{
   margin-bottom: 50px;
   width: 210px;
   margin: 0 auto;
-      margin-bottom: 0px;
+  margin-bottom: 0px;
   margin-bottom: 15px;
 
 }
