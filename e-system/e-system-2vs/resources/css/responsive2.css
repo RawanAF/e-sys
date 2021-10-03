@@ -28,6 +28,11 @@
        .foursys{
         margin-top: 250px;;
     }
+
+
+    .alert2 {
+        width: 70%;
+    }
 }
 
 /* Desktops, large screens */
@@ -61,10 +66,13 @@
         width: 37px;
        }
        .foursys{
-        margin-top: 250px;;
+        margin-top: 250px;
     }
-  
-  
+
+
+    .alert2 {
+        width: 70%;
+    }
 }
 
 /* Small screens, laptops */
@@ -122,7 +130,11 @@
         display: none;
     }
 
-     
+    .alert2 {
+        width: 100%;
+    }
+
+    
 }
 
 /* iPads, Tablets */
