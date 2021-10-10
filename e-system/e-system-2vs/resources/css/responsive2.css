@@ -38,6 +38,10 @@
     .alert2 {
         width: 70%;
     }
+
+    #msform fieldset{
+        padding: 0px 70px;
+    }
 }
 
 /* Desktops, large screens */
@@ -78,6 +82,12 @@
     .alert2 {
         width: 70%;
     }
+
+    #msform fieldset{
+        padding: 0px 70px;
+    }
+
+
 }
 
 /* Small screens, laptops */
@@ -138,7 +148,9 @@
     .alert2 {
         width: 100%;
     }
-
+#msform fieldset{
+        padding: 0px 40px;
+    }
     
 }
 
@@ -253,6 +265,8 @@
     text-align: initial;
    }
 
+
+   
  
    
 }
