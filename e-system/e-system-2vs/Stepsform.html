@@ -26,6 +26,33 @@
     crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="resources/css/Stepsform.css">
+
+  <script type="text/javascript" src="http://thecodeplayer.com/uploads/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="http://thecodeplayer.com/uploads/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+
+<script>
+jQuery.extend(jQuery.validator.messages, {
+  required: "مطلوب",
+  email: "الرجاء إدخال بريد الكتروني صالح",
+  url: "Please enter a valid URL.",
+  date: "Please enter a valid date.",
+  dateISO: "Please enter a valid date (ISO).",
+  number: "Please enter a valid number.",
+  digits: "Please enter only digits.",
+  creditcard: "Please enter a valid credit card number.",
+  equalTo: "Please enter the same value again.",
+  accept: "Please enter a value with a valid extension.",
+  maxlength: jQuery.validator.format("Please enter no more than {0} characters."),
+  minlength: jQuery.validator.format("Please enter at least {0} characters."),
+  rangelength: jQuery.validator.format("Please enter a value between {0} and {1} characters long."),
+  range: jQuery.validator.format("Please enter a value between {0} and {1}."),
+  max: jQuery.validator.format("Please enter a value less than or equal to {0}."),
+  min: jQuery.validator.format("Please enter a value greater than or equal to {0}.")
+});
+</script>
+
+
   <title> الأنظمة الإلكترونية</title>
   <script type="text/javascript">
     $(function () {
@@ -95,119 +122,7 @@
 
 
   </div>
-<!--   <section>
-    <div class="conainer">
-      <div class="alert2">
-        <div class="info-img2">
-          <img src="resources/images/AdobeStock_117127744.jpeg" class="new_ord"></img>
-        </div>
-        <div class="under-line">
-          <span style="font-size: 25px;color:#0b5438;margin-right: 12px;">نموذج طلب إنارة</span>
-          <br>
-          <span style="color: #0b5438;">ــــــــــــــــــــــــــــــــــــــــــــــــــــــ</span>
-        </div>
-        <br>
 
-        <form class="g-3">
-          <div class="row m-2">
-            <div class="col-md-6">
-              <div class="row">
-                <label class="col-md-4 col-form-label">الاسم</label>
-                <input type="text" class="col-md-8 form-control">
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="row">
-                <label class="col-md-4 col-form-label">رقم الهوية</label>
-                <input type="tel" class="col-md-8 form-control">
-              </div>
-            </div>
-          </div>
-
-          <div class="row m-2">
-            <div class="col-md-6">
-              <div class="row">
-                <label class="col-md-4 col-form-label">رقم الجوال</label>
-                <div class="col-md-8">
-                  <div class="row">
-                    <input type="number" class="col-md-9 form-control">
-                    <input type="tel" class="col-md-3 form-control text-center" value="966+" readonly>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="row">
-                <label class="col-md-4 col-form-label">نوع الطلب</label>
-                <input type="text" class="col-md-8 form-control">
-              </div>
-            </div>
-          </div>
-
-          <div class="row m-2">
-            <div class="col-md-6">
-              <div class="row">
-                <label class="col-md-4 col-form-label">المدينة</label>
-                <select class="col-md-8 form-select">
-                  <option selected>قم بالاختيار</option>
-                  <option value="1">ابها</option>
-                  <option value="2">خميس مشيط</option>
-                  <option value="3">بيشة</option>
-                  <option value="4">النماص</option>
-                  <option value="5">محايل عسير</option>
-                  <option value="6">ظهران الجنوب</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="row">
-                <label class="col-md-4 col-form-label">الحي</label>
-                <select class="col-md-8 form-select">
-                  <option selected>قم بالاختيار</option>
-                  <option value="1">الإسكان</option>
-                  <option value="2">الجزيرة</option>
-                  <option value="3">المنسك</option>
-                  <option value="4">الروضة</option>
-                </select>
-              </div>
-            </div>
-          </div>
-
-          <div class="row m-2">
-            <div class="col-md-6">
-              <div class="row">
-                <label class="col-md-4 col-form-label">تاريخ الطلب</label>
-
-                <input type="date" class="col-md-8 form-control" placeholder="dd-mm-yyyy" value="" id="">
-
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row">
-                <label class="col-md-4 col-form-label">حالة الطلب</label>
-                <input class="col-md-1 " type="radio" id="choose" name="choose">
-                <label for="chooe" class="col-md-2 ">موافق</label>
-                <input class="col-md-1 " type="radio" id="choose" name="choose">
-                <label for="choose" class="col-md-3 ">غير موافق</label>
-              </div>
-            </div>
-          </div>
-
-          <div class="text-center">
-
-            <button type="button" name="button" class="btn btn-outline-success">
-              <span>إرسال</span>
-            </button>
-          </div>
-
-        </form>
-
-      </div>
-    </div>
-  </section> -->
 
 <section>
   <div class="container-fluid">
@@ -237,14 +152,22 @@
                                     <h2 class="steps  text-center">الخطوة 1 من 4</h2>
                                 </div> -->
                             </div>
-                             <label class="fieldlabels">البريد الالكتروني: *</label> 
-                             <input type="email" name="email"  /> 
+                            <div class="form-inline">
+                              <label class="fieldlabels">البريد الالكتروني: *</label> 
+                              <input type="email" name="email" required /> 
+                            </div>
+                            <div class="form-inline">
                              <label class="fieldlabels">إسم المستخدم: *</label>
-                              <input type="text" name="uname"  /> 
+                              <input type="text" name="uname" required /> 
+                            </div>
+                              <div class="form-inline">
                               <label class="fieldlabels">كلمة المرور: *</label> 
-                              <input type="password" name="pwd"  /> 
+                              <input type="password" name="pwd" required /> 
+                              </div>
+                              <div class="form-inline">
                               <label class="fieldlabels">تاكيد كلمة المرور: *</label> 
-                              <input type="password" name="cpwd"  />
+                              <input type="password" name="cpwd" required />
+                              </div>
                         </div> 
                         <input type="button" name="next" class="next action-button" value="التالي" />
                     </fieldset>
@@ -258,12 +181,19 @@
                                 <!-- <div class="text-center">
                                     <h2 class="steps  text-center">الخطوة 2 من 4</h2>
                                 </div> -->
-                            </div> <label class="fieldlabels">الإســـم الاول: *</label> 
-                            <input type="text" name="fname"  />
+                            </div> 
+                            <div class="form-inline">
+                            <label class="fieldlabels">الإســـم الاول: *</label> 
+                            <input type="text" name="fname"  required/>
+                            </div>
+                            <div class="form-inline">
                              <label class="fieldlabels">الإسم الثاني: *</label> 
-                             <input type="text" name="lname"  /> 
+                             <input type="text" name="lname" required /> 
+                             </div>
+                             <div class="form-inline">
                              <label class="fieldlabels">رقم الجوال: *</label>
-                              <input type="text" name="phno"  />
+                              <input type="text" name="phno" required />
+                              </div>
                         </div> 
                         <input type="button" name="next" class="next action-button" value="التالي" />
                          <input type="button" name="previous" class="previous action-button-previous" value="السابق" />
@@ -278,7 +208,15 @@
                                <!--  <div class="text-center">
                                     <h2 class="steps  text-center">الخطوة 3 من 4</h2>
                                 </div> -->
-                            </div> <label class="fieldlabels">ارفع الصورة</label> <input type="file" name="pic" accept="image/*"> <label class="fieldlabels">ارقع الملف</label> <input type="file" name="pic" accept="image/*">
+                            </div> 
+                            <div class="form-inline">
+                            <label class="fieldlabels">ارفع الصورة</label>
+                             <input type="file" name="pic" accept="image/*" required>
+                            </div>
+                            <div class="form-inline">
+                              <label class="fieldlabels">ارقع الملف</label> 
+                              <input type="file" name="pic1" accept="image/*" required>
+                            </div>
                         </div> <input type="button" name="next" class="next action-button" value="إرسال" /> <input type="button" name="previous" class="previous action-button-previous" value="السابق" />
                     </fieldset>
                     <fieldset>
@@ -346,7 +284,7 @@
   <script src="resources/js/js.js"></script>
 
 
-  <script>
+<!--   <script>
     $(document).ready(function(){
 
 var current_fs, next_fs, previous_fs; //fieldsets
@@ -357,6 +295,11 @@ var steps = $("fieldset").length;
 setProgressBar(current);
 
 $(".next").click(function(){
+
+  $('#msform').validate();
+if (!$('#msform').valid()) {
+    return false;
+}
 
 current_fs = $(this).parent();
 next_fs = $(this).parent().next();
@@ -423,7 +366,78 @@ return false;
 })
 
 });
+  </script> -->
+
+  <script>
+    //jQuery time
+var current_fs, next_fs, previous_fs; //fieldsets
+var left, opacity, scale; //fieldset properties which we will animate
+var animating; //flag to prevent quick multi-click glitches
+
+
+$(".next").click(function(){
+    $('#msform').validate();
+    if (!$('#msform').valid()) {
+        return false;
+    }
+    
+	if(animating) return false;
+	animating = true;
+	
+	current_fs = $(this).parent();
+	next_fs = $(this).parent().next();
+	
+	//activate next step on progressbar using the index of next_fs
+	$("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+	
+	//show the next fieldset
+	next_fs.show(); 
+	//hide the current fieldset with style
+	current_fs.animate({opacity: 0}, {
+		step: function(now, mx) {
+			//as the opacity of current_fs reduces to 0 - stored in "now"
+			//1. scale current_fs down to 80%
+			scale = 1 - (1 - now) * 0.2;
+			//2. bring next_fs from the right(50%)
+			left = (now * 50)+"%";
+			//3. increase opacity of next_fs to 1 as it moves in
+			opacity = 1 - now;
+			/* current_fs.css({'transform': 'scale('+scale+')'}); */
+			/* next_fs.css({'left': left, 'opacity': opacity}); */
+		}, 
+		duration: 800, 
+		complete: function(){
+			current_fs.hide();
+			animating = false;
+		}, 
+		//this comes from the custom easing plugin
+		easing: 'easeInOutBack'
+	});
+});
+
+$(".previous").click(function(){
+	if(animating) return false;
+	animating = true;
+	
+	current_fs = $(this).parent();
+	previous_fs = $(this).parent().prev();
+	
+	//de-activate current step on progressbar
+	$("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+	
+	//show the previous fieldset
+	previous_fs.show(); 
+	//hide the current fieldset with style
+
+});
+
+$(".submit").click(function(){
+	return false;
+})
+
   </script>
+
+
 </body>
 
 </html>
