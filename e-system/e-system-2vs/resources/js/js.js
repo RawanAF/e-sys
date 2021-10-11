@@ -38,9 +38,10 @@ $('button').click(function () {
         text: "",
         type: 'warning',
         showCancelButton: true,
-        confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
-        confirmButtonText: 'نعم '
+        confirmButtonColor: '#198754d6',
+        cancelButtonColor: '#aeafb1',
+        confirmButtonText: 'نعم ',
+        cancelButtonText: 'لا'
     })
 
 })
