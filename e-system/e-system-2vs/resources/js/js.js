@@ -22,11 +22,25 @@ $(document).on('click', '#error', function (e) {
     )
 });
 
-$(document).on('click', '#question', function (e) {
-    swal(
-        'تأكيد!',
-        '<b style="color:grey;">question</b>',
-        'question',
+// $(document).on('click', '#question', function (e) {
+//     swal(
+//         'تأكيد!',
+//         '<b style="color:grey;">question</b>',
+//         'question',
 
-    )
-});
+//     )
+// });
+
+$('button').click(function () {
+
+    swal({
+        title: 'هل أنت متأكد تريد مغادرة هذه الصفحة ؟',
+        text: "",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'نعم '
+    })
+
+})
