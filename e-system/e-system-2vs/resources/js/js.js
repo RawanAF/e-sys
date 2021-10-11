@@ -16,31 +16,15 @@ $(document).on('click', '#success', function (e) {
 
 $(document).on('click', '#error', function (e) {
     swal(
-        'Error!',
+        'خطأ !',
         '<b style="color:red;">error</b>',
         'error'
     )
 });
 
-$(document).on('click', '#warning', function (e) {
-    swal(
-        'Warning!',
-        '<b style="color:coral;">warning</b>',
-        'warning'
-    )
-});
-
-$(document).on('click', '#info', function (e) {
-    swal(
-        'Info!',
-        '<b style="color:cornflowerblue;">info</b>',
-        'info'
-    )
-});
-
 $(document).on('click', '#question', function (e) {
     swal(
-        'Question!',
+        'تأكيد!',
         '<b style="color:grey;">question</b>',
         'question',
 
