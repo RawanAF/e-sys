@@ -19,49 +19,33 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <link rel="stylesheet" href="resources/css/responsive2.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
 
   <title>الأنظمة الإلكترونية</title>
+
+  <style>
+    .alert-m {
+      padding: 11px 28px;
+    }
+  </style>
+
 </head>
 
 <body>
 
 
-  <a href="#costumModal17" role="button" class="btn btn-default" data-toggle="modal">
-    إرسال
-  </a>
-  <div id="costumModal17" class="modal show" data-easein="slideDownIn" tabindex="-1" role="dialog"
-    aria-labelledby="costumModalLabel" style="padding-top:145px;">
-    <div class="modal-dialog">
-      <div class="modal-content">
+  <div>
 
-        <img class="check-img" src="resources/images/check.png">
-
-        <!-- <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-          ×
-        </button>
-        <h4 class="modal-title">
-          Modal Header
-        </h4>
-      </div> -->
-        <div class="modal-body">
-          <h5>تمت عملية الحفظ بنجاح </h5>
-        </div>
-        <div class="modal-footer">
-
-          <button class="btn btn-primary">
-            موافق
-          </button>
-        </div>
-      </div>
-    </div>
+    <button id="success" class="bttn-pill bttn-md bttn-primary alert-m">Success</button>
+    <button id="error" class="bttn-pill bttn-md bttn-primary alert-m">Error</button>
+    <button id="warning" class="bttn-pill bttn-md bttn-primary alert-m">Warning</button>
+    <button id="info" class="bttn-pill bttn-md bttn-primary alert-m">Info</button>
+    <button id="question" class="bttn-pill bttn-md bttn-primary alert-m">Question</button>
   </div>
 
 
-
-  <div class="triple-spinner"></div>
+  <!-- <div class="triple-spinner"></div> -->
 
 
 
