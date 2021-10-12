@@ -369,6 +369,13 @@
     .navbar-nav{
         text-align: initial;
        }
+
+       .img-cyber {
+        width: 50%;
+        padding-top: 22px;
+        margin-left: 54px;
+       margin-top: 12px;
+    }
     
 }
 
