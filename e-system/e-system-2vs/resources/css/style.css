@@ -843,3 +843,140 @@ input[type=radio]:active{
   border: 1px solid black;
   margin: 10px;
 }
+
+/* twocards in index page */
+
+
+section {
+  margin-left: 50px;
+  border-radius: 20px;
+  position: relative;
+  top: -80px;
+  text-align: right;
+
+
+}
+
+section  .card-header{
+  text-align:center;
+  border-bottom: none;
+  background-color: white;
+  font-size: 120%;
+  font-weight:bold;
+
+
+}
+#testimonials {
+  padding: 90px 0 40px 0;
+}
+
+#testimonials .section-header {
+  margin-bottom: 40px;
+}
+#testimonials .carousel-inner {
+  background: #ffffff;
+  box-shadow: -4px 4px 5px 1px #0000001a;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+#testimonials .testimonials-carousel {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px #88a2d3;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+#testimonials .carousel-item i {
+  font-size: 60px;
+  color: #0154a6;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  #testimonials .carousel-item i {
+    float: none;
+  }
+  #testimonials .carousel-item {
+    text-align: center;
+  }
+  #testimonials .stars {
+    margin: 0 !important;
+  }
+  #testimonials .carousel-item .testimonial-img {
+    float: none;
+    margin: auto;
+  }
+}
+
+#testimonials .carousel-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+  margin-left: 140px;
+}
+
+#testimonials .carousel-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+  margin-left: 140px;
+}
+#testimonials .stars {
+  margin: 0 0 15px 140px;
+}
+#testimonials .checked {
+  color: #0154a6;
+}
+#testimonials .carousel-item p {
+  font-style: italic;
+  margin: 0 0 50px 140px;
+}
+
+@media (min-width: 992px) {
+  #testimonials .carousel-item p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  #testimonials .carousel-item h3,
+  #testimonials .carousel-item h4,
+  #testimonials .carousel-item p {
+    margin-left: 0;
+  }
+}
+
+#testimonials .testimonial-text {
+  margin: 2.5rem 20px 0px 20px;
+  text-align: center;
+}
+#testimonials .carousel-indicators {
+
+  margin: 0;
+  padding: 2px 0;
+}
+#testimonials .carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  border-top: 0;
+  border-bottom: 0;
+  background-color: #aaaaaa;
+  cursor:pointer;
+}
+
+
+
+#testimonials .carousel-indicators li.active {
+  background: #16905d;
+  }
+
+#testimonials{
+  position: absolute;
+   top: 158px;
+   right: 0;
+   left: 0;
+ }
