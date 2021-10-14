@@ -334,6 +334,7 @@
        .list {
         margin-right: 5px;
     }
+  
 
     .ct-socials {
         display: none;
@@ -353,10 +354,13 @@
         font-size: 18px !important;
         margin-top: 10px;
     }
-
+  
+    section#testimonials {
+        display: none;
+    }
 
     .foursys{
-        margin-top: 670px;
+        margin-top: 102px;
     }
 
     .twocards{
@@ -440,6 +444,14 @@
     .count_icon {
         width: 35px;
     }
+    
+    section#testimonials {
+        display: none;
+    }
+    .foursys {
+        margin-top:102px;
+    }
+
 
     .ct-socials {
         display: none;
@@ -461,9 +473,6 @@
         margin-top: 10px;
     }
 
-    .foursys{
-        margin-top: 670px;
-    }
 
     .navbar nav{
         direction: ltr;
