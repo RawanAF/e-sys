@@ -130,7 +130,11 @@
     .info-img h1{
         padding-left: 13px;
     }
-    
+
+    .user-details{
+        margin-right: 419px;
+    }
+
          .user-details ul {
           margin-right: -51px;
        }
@@ -146,11 +150,7 @@
         font-size: 27px;
         margin-top: 3px;
        }
-      .log-out button.bttn-pill.bttn-md.bttn-primary{
-        margin-left: 25px;
-      }
-       
-
+    
        .foursys{
         margin-top: 650px;;
     }
