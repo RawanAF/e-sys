@@ -91,6 +91,10 @@ ul.dropdown-menu.show {
     color: rgb(255 255 255);
 }
 
+a.dropdown-item {
+  text-align: right;
+}
+
 .error{
   color: red !important;
 }
@@ -481,6 +485,19 @@ ul{
   /* height: 389px; */
   margin-bottom: 100px;
 }
+.count-cards{
+margin-top: 135px;
+}
+
+text.ppp {
+  font-size: 17px;
+      margin-right: 15px;
+}
+section.list {
+  margin-top: 89px;
+}
+
+
 .alert2{
   
  margin: auto;

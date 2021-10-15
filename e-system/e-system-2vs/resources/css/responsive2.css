@@ -86,14 +86,15 @@
     #msform fieldset{
         padding: 0px 70px;
     }
+    
 
 
 }
 
 /* Small screens, laptops */
 @media (min-width: 769px) and (max-width: 1024px) {
-    .ppp{
-        font-size: 18px;
+    text.ppp{
+        font-size: 16px;
        }
        .alert h2{
         font-size: 20px;
@@ -114,6 +115,9 @@
         width: 166px;
         text-align: center;
        }
+       .count-cards {
+        margin-top: 125px;
+       }
 
        .count_icon {
         width: 34px;
@@ -122,33 +126,37 @@
        .ct-socials {
         display: none;
     }
-    .user-details ul {
-        margin-right: 50px;
-        margin-top: -9px;
+         .user-details ul {
+          margin-right: -51px;
        }
+
        .user-details ul h6 {
         font-size: 15px;
        }
        .info-img .seperator img {
-            margin-right: 120px;
+            margin-right: 15px;
             width: 6px;
        }
        .info-img h1 {
         font-size: 27px;
         margin-top: 3px;
        }
+      .log-out button.bttn-pill.bttn-md.bttn-primary{
+        margin-left: 25px;
+      }
+       
 
        .foursys{
         margin-top: 350px;;
     }
     footer  {
-        display: none;
+        margin-top: 321px;
     }
 
     .alert2 {
         width: 100%;
     }
-#msform fieldset{
+     #msform fieldset{
         padding: 0px 40px;
     }
     
@@ -156,14 +164,19 @@
 
 /* iPads, Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
-    .ppp{
+    text.ppp{
         font-size: 15px;
+        margin-right: -24px;
    }
 
    .orders{
     padding-top: 44px;
     margin: 0 auto;
     margin-top: 7px;
+   }
+
+   .count-cards {
+    margin-top: 40px;
    }
 
    .foursys{
@@ -244,24 +257,37 @@
    .ct-socials {
        display: none;
    }
+
    .user-details ul {
-    margin-right: 39px;
-    margin-top: -6px;
+    margin-right: -218px;
    }
+
    .user-details ul h6 {
     font-size: 13px;
    }
+
    .info-img img {
-    width: 64px;
+    width: 60px;
    }
+
    .info-img h1 {
-    font-size: 23px;
+    font-size: 21px;
     margin-top: 8px;
    }
+
    .info-img .seperator img {
-    margin-right: -1px;
+    margin-right: -102px;
     width: 5px;
    }
+
+   .log-out button.bttn-pill.bttn-md.bttn-primary{
+    margin-left: 25px;
+  }
+  
+  a.dropdown-item {
+    text-align: right;
+   }
+  
    .navbar-nav{
     text-align: initial;
    }
@@ -274,8 +300,9 @@
 
 /* Mobile devices */
 @media (min-width: 321px) and (max-width: 480px) {
-    .ppp {
-        font-size: 23px;
+    text.ppp {
+        font-size: 15px;
+         margin-right: -43px;
         font-weight: normal;
     }
     .pp{
@@ -298,16 +325,20 @@
        }
 
        .alert ul li {
-        font-size: 17px;
+        font-size: 15px;
         font-weight: normal;
        }
 
        .alert ul {
         padding-right: 13px;
        }
+
+    .count-cards {
+        margin-top: 32px;
+    }
     
        .single-chart{
-        width: 191px;
+        width:140px;
         margin: 7px auto;
         border-radius: 25px;
         background: white;
@@ -317,7 +348,7 @@
        }
 
        .orders{
-        width: 208px;
+        width:175px;
         margin: 0 auto;
         margin-top: 7px;
        }
@@ -334,6 +365,10 @@
        .list {
         margin-right: 5px;
     }
+    .user-icon {
+        margin-right: -102px;
+        margin-top: 62px;
+    }
   
 
     .ct-socials {
@@ -345,15 +380,37 @@
         font-size: 14px;
     }
     .info .card{
-        height: 66px;
+        height: 96px;
     }
     .info-img img{
-        height: 67px;;
+        height: 96px;
+        width: 44px;
     }
+
     .info-img h1{
-        font-size: 18px !important;
-        margin-top: 10px;
+        font-size: 22px !important;
+        margin-top: 9px;
+        padding-left: 10px;
     }
+    
+    .info-img .seperator img{
+        display: none;
+    }
+    .log-out button.bttn-pill.bttn-md.bttn-primary{
+        display: none;
+    }
+    .user-details{
+        display: none;
+    }
+    a.nav-link {
+        font-size: 14px;
+    }
+
+    a.dropdown-item {
+        text-align: right;
+        font-size: 14px;
+    }
+    
   
     section#testimonials {
         display: none;
@@ -386,8 +443,9 @@
 
 /* Mobile devices */
 @media (max-width: 320px) {
-    .ppp {
-        font-size: 18px;
+    text.ppp {
+        font-size: 15px;
+        margin-right: 7px;
         font-weight: normal;
     }
     .pp{
@@ -415,16 +473,21 @@
        }
 
        .alert ul li {
-        font-size: 17px;
+        font-size: 15px;
+        padding-top: 5px;
         font-weight: normal;
        }
 
        .alert ul {
         padding-right: 13px;
        }
+
+       .count-cards {
+        margin-top: 29px;
+       }
     
        .single-chart{
-        width: 166px;
+        width: 149px;
         margin-top: 10px;
        }
 
@@ -438,12 +501,27 @@
         margin-right: 0px;
     }
     .orders{
-        width: 177px;
+        width: 173px;
     }
 
     .count_icon {
         width: 35px;
     }
+    .user-icon {
+        margin-right: -102px;
+        margin-top: 62px;
+    }
+    .info-img .seperator img{
+        display: none;
+    }
+
+    .log-out button.bttn-pill.bttn-md.bttn-primary{
+        display: none;
+    }
+    .user-details{
+        display: none;
+    }
+    
     
     section#testimonials {
         display: none;
@@ -458,19 +536,31 @@
     }
 
     footer p {
-        padding-right: 10px;
-        font-size: 14px;
+        padding-right: 2px;
+        font-size: 12px;
     }
 
     .info .card{
         height: 66px;
     }
     .info-img img{
-        height: 67px;;
+        height: 67px;
+        width: 39px;
     }
+
     .info-img h1{
         font-size: 18px !important;
-        margin-top: 10px;
+        margin-top: -3px;
+        padding-left: 10px;
+    }
+    a.nav-link {
+        font-size: 14px;
+    }
+
+    a.dropdown-item {
+        text-align: right;
+        font-size: 14px;
+        
     }
 
 
