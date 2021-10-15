@@ -126,6 +126,11 @@
        .ct-socials {
         display: none;
     }
+
+    .info-img h1{
+        padding-left: 13px;
+    }
+    
          .user-details ul {
           margin-right: -51px;
        }
