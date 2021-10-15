@@ -369,6 +369,13 @@
         margin-right: -102px;
         margin-top: 62px;
     }
+
+    .navbar img {
+        height: 83px;
+        width: 210px;
+        top: 18px;
+        right: -13px;
+    }
   
 
     .ct-socials {
@@ -511,6 +518,13 @@
         margin-right: -102px;
         margin-top: 62px;
     }
+    .navbar img {
+        height: 75px;
+        width: 198px;
+        top: 23px;
+        right: -16px;
+    }
+
     .info-img .seperator img{
         display: none;
     }
