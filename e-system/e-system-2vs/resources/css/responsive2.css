@@ -307,7 +307,7 @@
 @media (min-width: 321px) and (max-width: 480px) {
     text.ppp {
         font-size: 15px;
-         margin-right: -43px;
+        margin-right: 2px;
         font-weight: normal;
     }
     .pp{
